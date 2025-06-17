@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Rental Service</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navigation Bar -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">CarRental</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#" class="hover:text-blue-600">Home</a></li>
+        <li><a href="#cars" class="hover:text-blue-600">Cars</a></li>
+        <li><a href="#services" class="hover:text-blue-600">Services</a></li>
+        <li><a href="#about" class="hover:text-blue-600">About Us</a></li>
+        <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        <li><a href="#login" class="hover:text-blue-600">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-500 text-white py-20 text-center">
+    <h2 class="text-4xl font-bold mb-4">Find the Perfect Car for Your Trip</h2>
+    <p class="text-xl mb-8">Affordable and reliable car rentals at your fingertips.</p>
+    <a href="#cars" class="bg-white text-blue-600 px-6 py-3 rounded shadow hover:bg-gray-200">Browse Cars</a>
+  </section>
+
+  <!-- Cars Section -->
+  <section id="cars" class="py-16 container mx-auto px-4">
+    <h3 class="text-3xl font-bold mb-8 text-center">Available Cars</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Car Card Example -->
+      <div class="bg-white p-6 rounded shadow">
+        <img src="https://via.placeholder.com/300x180" alt="Car 1" class="mb-4 rounded">
+        <h4 class="text-xl font-semibold mb-2">Toyota Corolla</h4>
+        <p class="text-gray-600 mb-4">Reliable and fuel-efficient sedan perfect for city travel.</p>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Rent Now</button>
+      </div>
+      <!-- Add more car cards as needed -->
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-gray-200">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">Our Services</h3>
+      <p class="mb-4">We provide short-term and long-term car rentals, airport pickup, 24/7 customer support, and more.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 container mx-auto px-4 text-center">
+    <h3 class="text-3xl font-bold mb-4">About Us</h3>
+    <p>CarRental has been serving customers for over 10 years with high-quality vehicles and customer-first service.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-200">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">Contact Us</h3>
+      <p>Email: support@carrental.com | Phone: +1 (800) 123-4567</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-6 text-center">
+    <p class="text-gray-600">&copy; 2025 CarRental. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
